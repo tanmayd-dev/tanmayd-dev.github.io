@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tanmay Deshpande</title>
+    <meta name="description" content="Software engineer at UBS. Systems, tools, distributed engines, and robotics research." />
+    <link rel="alternate" type="application/pdf" title="Resume PDF" href="resume.pdf" />
+    <style>
+      :root {
+        --bg: #0d1117;
+        --card-bg: #161b22;
+        --card-border: #30363d;
+        --text: #e6edf3;
+        --text-muted: #8b949e;
+        --accent: #58a6ff;
+        --accent-hover: #79c0ff;
+        --tag-bg: #21262d;
+      }
+      @media (prefers-color-scheme: light) {
+        :root {
+          --bg: #f6f8fa;
+          --card-bg: #ffffff;
+          --card-border: #d0d7de;
+          --text: #1f2328;
+          --text-muted: #656d76;
+          --accent: #0969da;
+          --accent-hover: #0550ae;
+          --tag-bg: #eaeef2;
+        }
+      }
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        background-color: var(--bg);
+        color: var(--text);
+        line-height: 1.6;
+        padding: 2.5rem 1.25rem;
+      }
+      .container {
+        max-width: 680px;
+        margin: 0 auto;
+      }
+      header {
+        margin-bottom: 2rem;
+      }
+      h1 {
+        font-size: 1.85rem;
+        font-weight: 700;
+        letter-spacing: -0.02em;
+        margin-bottom: 0.35rem;
+      }
+      .bio {
+        color: var(--text-muted);
+        font-size: 1.05rem;
+      }
+      .nav-links {
+        display: flex;
+        gap: 0.85rem;
+        margin-top: 1.2rem;
+        flex-wrap: wrap;
+      }
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4rem;
+        padding: 0.45rem 0.9rem;
+        font-size: 0.9rem;
+        font-weight: 500;
+        border-radius: 6px;
+        text-decoration: none;
+        transition: background-color 0.15s ease, border-color 0.15s ease;
+      }
+      .btn-primary {
+        background-color: var(--accent);
+        color: #ffffff;
+        border: 1px solid var(--accent);
+      }
+      .btn-primary:hover {
+        background-color: var(--accent-hover);
+        border-color: var(--accent-hover);
+      }
+      .btn-secondary {
+        background-color: var(--card-bg);
+        color: var(--text);
+        border: 1px solid var(--card-border);
+      }
+      .btn-secondary:hover {
+        border-color: var(--accent);
+      }
+      section {
+        margin-top: 2.5rem;
+      }
+      h2 {
+        font-size: 1.15rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: var(--text-muted);
+        margin-bottom: 1rem;
+      }
+      .item-list {
+        display: flex;
+        flex-direction: column;
+        gap: 0.9rem;
+      }
+      .item {
+        background-color: var(--card-bg);
+        border: 1px solid var(--card-border);
+        border-radius: 8px;
+        padding: 1rem 1.15rem;
+        transition: border-color 0.15s ease;
+      }
+      .item:hover {
+        border-color: var(--accent);
+      }
+      .item-header {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 0.5rem;
+        flex-wrap: wrap;
+      }
+      .item-title {
+        font-weight: 600;
+        font-size: 1rem;
+        color: var(--text);
+        text-decoration: none;
+      }
+      .item-title:hover {
+        color: var(--accent);
+      }
+      .item-links {
+        font-size: 0.85rem;
+      }
+      .item-links a {
+        color: var(--accent);
+        text-decoration: none;
+        margin-left: 0.6rem;
+      }
+      .item-links a:hover {
+        text-decoration: underline;
+      }
+      .item-desc {
+        color: var(--text-muted);
+        font-size: 0.9rem;
+        margin-top: 0.35rem;
+      }
+      footer {
+        margin-top: 3.5rem;
+        padding-top: 1.5rem;
+        border-top: 1px solid var(--card-border);
+        font-size: 0.85rem;
+        color: var(--text-muted);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+      }
+      footer a {
+        color: var(--text-muted);
+        text-decoration: none;
+      }
+      footer a:hover {
+        color: var(--text);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Tanmay Deshpande</h1>
+        <p class="bio">Software engineer at UBS. Systems, tools, distributed architectures, and robotics.</p>
+        <div class="nav-links">
+          <a class="btn btn-primary" href="resume.pdf" target="_blank" rel="noopener">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+            Resume (PDF)
+          </a>
+          <a class="btn btn-secondary" href="https://github.com/tanmayd-dev" target="_blank" rel="noopener">
+            GitHub
+          </a>
+          <a class="btn btn-secondary" href="https://www.linkedin.com/in/work-tanmay-deshpande" target="_blank" rel="noopener">
+            LinkedIn
+          </a>
+        </div>
+      </header>
+
+      <section>
+        <h2>Featured Projects</h2>
+        <div class="item-list">
+          <div class="item">
+            <div class="item-header">
+              <a class="item-title" href="https://github.com/tanmayd-dev/TaskTide" target="_blank" rel="noopener">TaskTide</a>
+              <div class="item-links">
+                <a href="https://github.com/tanmayd-dev/TaskTide" target="_blank" rel="noopener">GitHub</a>
+              </div>
+            </div>
+            <p class="item-desc">Distributed DAG workflow engine with worker pool coordination and topological scheduling in Go.</p>
+          </div>
+
+          <div class="item">
+            <div class="item-header">
+              <a class="item-title" href="https://github.com/tanmayd-dev/brickbench" target="_blank" rel="noopener">brickbench</a>
+              <div class="item-links">
+                <a href="https://tanmayd-dev.github.io/brickbench/" target="_blank" rel="noopener">Live Report</a>
+                <a href="https://github.com/tanmayd-dev/brickbench" target="_blank" rel="noopener">GitHub</a>
+              </div>
+            </div>
+            <p class="item-desc">Evaluation framework benchmarking LLM-generated Android debloat scripts against real emulators.</p>
+          </div>
+
+          <div class="item">
+            <div class="item-header">
+              <a class="item-title" href="https://github.com/tanmayd-dev/geometry-solver" target="_blank" rel="noopener">geometry-solver</a>
+              <div class="item-links">
+                <a href="https://tanmayd-dev.github.io/geometry-solver/" target="_blank" rel="noopener">Live Demo</a>
+                <a href="https://github.com/tanmayd-dev/geometry-solver" target="_blank" rel="noopener">GitHub</a>
+              </div>
+            </div>
+            <p class="item-desc">Interactive Euclidean geometry engine with real-time numerical constraint solving.</p>
+          </div>
+
+          <div class="item">
+            <div class="item-header">
+              <a class="item-title" href="https://github.com/tanmayd-dev/ai-workflow-platform" target="_blank" rel="noopener">ai-workflow-platform</a>
+              <div class="item-links">
+                <a href="https://github.com/tanmayd-dev/ai-workflow-platform" target="_blank" rel="noopener">GitHub</a>
+              </div>
+            </div>
+            <p class="item-desc">Regulated workflow platform pairing LLM draft generation with deterministic rule engines and state replay.</p>
+          </div>
+
+          <div class="item">
+            <div class="item-header">
+              <a class="item-title" href="https://github.com/tanmayd-dev/audio-subtitles" target="_blank" rel="noopener">audio-subtitles</a>
+              <div class="item-links">
+                <a href="https://audio-subtitles.deshpandetanmay2003.workers.dev/" target="_blank" rel="noopener">Live Demo</a>
+                <a href="https://github.com/tanmayd-dev/audio-subtitles" target="_blank" rel="noopener">GitHub</a>
+              </div>
+            </div>
+            <p class="item-desc">Client-side audio transcription running Whisper in-browser via Web Workers.</p>
+          </div>
+
+          <div class="item">
+            <div class="item-header">
+              <a class="item-title" href="https://github.com/tanmayd-dev/animate" target="_blank" rel="noopener">animate</a>
+              <div class="item-links">
+                <a href="https://tanmayd-dev.github.io/animate/" target="_blank" rel="noopener">Live Demo</a>
+                <a href="https://github.com/tanmayd-dev/animate" target="_blank" rel="noopener">GitHub</a>
+              </div>
+            </div>
+            <p class="item-desc">Interactive Three.js animation story with vendored client assets.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Research</h2>
+        <div class="item-list">
+          <div class="item">
+            <div class="item-header">
+              <a class="item-title" href="https://doi.org/10.1016/j.rineng.2025.104081" target="_blank" rel="noopener">Optimal drone flight path planning for precision agriculture</a>
+              <div class="item-links">
+                <a href="https://doi.org/10.1016/j.rineng.2025.104081" target="_blank" rel="noopener">Paper (DOI)</a>
+              </div>
+            </div>
+            <p class="item-desc"><em>Results in Engineering</em> (2025) &mdash; Flight path optimization and region partitioning for multi-UAV survey clusters.</p>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <span>&copy; Tanmay Deshpande</span>
+        <span><a href="resume.pdf">resume.pdf</a></span>
+      </footer>
+    </div>
+  </body>
+</html>
